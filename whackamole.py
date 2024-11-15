@@ -17,9 +17,12 @@ def main():
             screen.fill("light green")
             pygame.display.flip()
             clock.tick(60)
+            for line in range(1,16+1):
+                pygame.draw.line(screen, "dark green", (0,line*32), ())
+
     finally:
         pygame.quit()
 
-
+#hellllloooo
 if __name__ == "__main__":
     main()
